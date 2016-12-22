@@ -1,0 +1,79 @@
+<!--Template for bio pages-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
+	<!--Add Title-->
+	<title></title>
+</head>
+
+<body>
+	<!--Page Header (Where buttons go)-->
+	<header class="container">
+		<div class="row">
+			<h1 class="col-xs-4">My Game Collection</h1>
+			<nav class="col-xs-8 text-right nav">
+			  <a class="btn btn-primary" href="index.html">Games</a>
+			</nav>
+		</div>
+	</header>
+
+	<!--Title of the page-->
+	<section class="container">
+		<div class="row">
+			<div class="col-xs-4">
+				<p class="h3"></p>
+			</div>
+		</div>
+	</section>
+
+	<!--Where all of your body stuff goes (Game description and picture-->
+	<section class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<p></p>
+				</div>
+				<div class="col-xs-6">
+					<img src="pictures/">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Page footer-->
+	<footer class="container">
+		<div class="row">
+			<p class="col-xs-8" id="foot">&copy;Umer Ikram</p>
+		</div>
+	</footer>
+
+</body>
+</html>
+
+<!--Template for picture showcase-->
+<section class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<!--Picture 1-->
+				<div class="col-xs-6">
+					<img src="pictures/">
+				</div>
+				<!--Picture 2-->
+				<div class="col-xs-6">
+					<img src="pictures/">
+				</div>
+				<!--Picture 3-->
+				<div class="col-xs-6">
+					<img src="pictures/">
+				</div>
+				<!--Picture 4-->
+				<div class="col-xs-6">
+					<img src="pictures/">
+				</div>
+			</div>
+		</div>
+	</section>
